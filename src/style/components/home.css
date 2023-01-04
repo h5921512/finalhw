@@ -1,0 +1,103 @@
+.home {
+  padding-top: 54px;
+  background-image: url("../../images/home/Background_texture.png");
+  background-size: cover;
+}
+/* .carousel img {
+  width: 100%;
+} */
+
+.slogan p {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+.nav-bar-switch ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 28px;
+  line-height: 41px;
+  margin-top: 54px;
+  font-weight: 700;
+}
+
+.choiced {
+  color: #eec65a;
+  border-bottom: 3px solid #eec65a;
+}
+
+.hot-sale p {
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  letter-spacing: 0.34em;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 111px;
+}
+.hot-sale {
+  margin-bottom: 120px;
+}
+.product-item {
+  max-width: 230px;
+  /* height: 200px; */
+}
+.product-item-more {
+  cursor: pointer;
+  position: absolute;
+  right: 15%;
+  bottom: -30%;
+  text-align: right;
+  transition: 0.3s;
+  color: #eec65a;
+}
+.product-item-more:hover {
+  color: #878787;
+}
+@media (max-width: 1280px) {
+  .product-item-more {
+    bottom: -0;
+  }
+}
+.product-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.product-item p {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.product-imgs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+.product-item-wrapper {
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-hot-sale-button img {
+  max-width: 180px;
+}
+.chief-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+.chief-img img {
+  width: 100%;
+  height: auto;
+}

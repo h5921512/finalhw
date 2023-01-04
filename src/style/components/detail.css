@@ -1,0 +1,219 @@
+.detail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../images/home/Background_texture.png");
+  background-size: cover;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+}
+.detail-banner {
+  position: relative;
+  padding-top: 57px;
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 1280px) {
+  .detail-banner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.detail-banner img {
+  width: 100%;
+}
+.detail-banner-logo {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+}
+@media (max-width: 1280px) {
+  .detail-banner-logo {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    margin: auto;
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .detail-banner-logo {
+    display: none;
+  }
+}
+.detail-banner-bg {
+  flex: 1;
+}
+.detail-banner-text {
+  position: absolute;
+  width: 60%;
+  bottom: 10%;
+  left: 11%;
+}
+@media (max-width: 1280px) {
+  .detail-banner-text {
+    width: 70%;
+    left: 0;
+    position: relative;
+    margin: 59px 0 40px 0;
+  }
+}
+@media (max-width: 768px) {
+  .detail-banner-text {
+    display: none;
+  }
+}
+.detail-content {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.detail-content-card {
+  margin-top: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(25% - 45px);
+}
+@media (max-width: 1280px) {
+  .detail-content-card {
+    width: calc(50% - 15px);
+  }
+}
+@media (max-width: 768px) {
+  .detail-content-card {
+    width: calc(100%);
+  }
+}
+.detail-content-card-info-wrapper {
+  position: relative;
+  width: 100%;
+}
+.detail-content-card-info {
+  background: rgba(245, 232, 211, 0.85);
+  opacity: 0.85;
+  border-radius: 28px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detail-content-card-info-title {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  /* line-height: 52px; */
+  border-bottom: 3px solid #777777;
+  width: 80%;
+}
+.detail-content-card-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  letter-spacing: 0.09em;
+  width: 80%;
+  height: 100%;
+  font-weight: 700;
+  font-size: 1em;
+  gap: 1em;
+  overflow: hidden;
+}
+.detail-content-card-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.detail-content-card-img {
+  width: 100%;
+}
+.detail-content-card-status {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.detail-content-card-status-amount input {
+  width: 23px;
+  height: 23px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: transparent;
+  border: 1px solid #ababab;
+  border-radius: 5px;
+  text-align: center;
+}
+.detail-content-card-status-amount {
+  cursor: pointer;
+}
+.detail-content-backhome-button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+@media (max-width: 1280px) {
+  .detail-content-backhome-button {
+    bottom: -115px;
+  }
+}
+@media (max-width: 768px) {
+  .detail-content-backhome-button {
+    top: 20px;
+    left: -50px;
+  }
+}
+.detail-content-submit-button {
+  background: #ffeebd;
+  box-shadow: 0px 6px 8px -1px #c4b691;
+  border-radius: 21px;
+  width: 142px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.detail-content-submit-button:hover {
+  color: #878787;
+}
+.detail-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 70%;
+  gap: 27px;
+}
+.detail-warning-title {
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  line-height: 80px;
+}
+.detail-warning-title img.active {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+.detail-warning-title img {
+  margin-left: 8px;
+  width: 15px;
+  height: 12px;
+  transition: 0.5s;
+  transform: rotate(180deg);
+}
+.detail-warning-text {
+  letter-spacing: 0.09em;
+}
+.detail-warning-text p {
+  color: #565656;
+}

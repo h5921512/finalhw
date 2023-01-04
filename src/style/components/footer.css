@@ -1,0 +1,52 @@
+.footer {
+  background-image: url("../../images/home/Background_texture.png");
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-image: url("../../images/footer/Background_down.png");
+  max-height: 917px;
+  padding-top: 200px;
+}
+.footer-content-wrapper {
+  width: 220px;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.09em;
+  padding-bottom: 32px;
+}
+
+.footer-title {
+  height: 42px;
+  border-bottom: 1px solid black;
+  margin-bottom: 21px;
+}
+@media (max-width: 768px) {
+  .footer-title {
+    text-align: center;
+  }
+}
+.footer ul {
+  list-style: none;
+}
+.footer li {
+  margin-bottom: 8px;
+}
+.footer-content-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+.footer img {
+  margin-right: 10px;
+}
+.footer-content-info div {
+  color: #565656;
+}
+.footer-content-icon-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
