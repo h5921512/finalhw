@@ -2,7 +2,7 @@
   "name": "ntut-110-2-fong-final",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://h5921512.github.io/finalhw.git",
+  "homepage": "https://h5921512.github.io/finalhw",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
